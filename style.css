@@ -1,7 +1,11 @@
+@font-face {
+    font-family: 'netflixClone';
+    src: url(fonts/netflixsans-light-webfont.woff);
+}
 *{
     box-sizing: border-box;
     margin: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'netflixClone', system-ui, -apple-system, 'Segoe UI', Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body{
     background-color: #000000;
@@ -9,7 +13,7 @@ body{
     min-width: 320px;
 }
 #heroSection{
-    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8)), url(netflixbg.jpg);
+    background-image: linear-gradient(0deg,rgba(0,0,0,1) 0,transparent 60%,rgba(0,0,0,1)), url(netflixbg.jpg);
     width: 100%;
     padding: 30px 56px;
 }
@@ -38,16 +42,20 @@ body{
 }
 #hero h1{
     margin: 0 155px;
-    font-weight: 700;
-    font-size: 69px;
+    font-weight: 500;
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    padding: 0 150px;
     
 }
 #hero h2{
     font-size: 26px;
+    font-weight: 400;
     margin: 16px 155px;
 }
 #hero h3{
     font-size: 20px;
+    font-weight: 400;
     margin: 0 120px;
 }
 #call_to_action{
@@ -67,6 +75,7 @@ body{
 #call_to_action button {
     width: 15%;
     font-size: 18px;
+    font-weight: 500;
     padding: 12px;
     color: white;
     border: 1px solid #e50914;
@@ -101,6 +110,7 @@ body{
 }
 #contentAmedia{
     width: 45%;
+    padding-left: 80px;
 }
 #contentAimage{
     width: 100%;
@@ -109,9 +119,9 @@ body{
 #contentAvideo{
     position: absolute;
     z-index: 1;
-    margin-left: -500px;
-    margin-top: 100px;
-    width: 30%;
+    margin-left: -435px;
+    margin-top: 84px;
+    width: 26%;
 }
 .contentB{
     display: flex;
@@ -184,11 +194,11 @@ body{
 }
 #contentDtext{
     width: 55%;
-    padding: 0 30px;
+    padding: 0 110px;
 }
 #contentDtext h1{
     padding: 20px 0;
-    font-size: 50px;
+    font-size: 45px;
 }
 #contentDtext h2{
     font-size: 26px;
