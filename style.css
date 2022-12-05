@@ -119,9 +119,9 @@ body{
 #contentAvideo{
     position: absolute;
     z-index: 1;
-    margin-left: -435px;
-    margin-top: 84px;
-    width: 26%;
+    margin-left: -440.5px;
+    margin-top: 80px;
+    width: 27.5%;
 }
 .contentB{
     display: flex;
@@ -149,20 +149,24 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: -150px;
+    margin-top: -140px;
     margin-left: 120px;
     padding: 20px;
     border: 2px solid #222;
     border-radius: 12px;
     width: 30%;
-    height: 20vh;
+    height: 16vh;
 }
 #gifText{
-    margin-top: 25px;
+    margin-top: 15px;
     margin-left: -70px;
 }
 #gifText p{
     color: #0071eb;
+    font-size: 14px;
+}
+#gifText h3{
+    font-size: 16px;
 }
 #contentBtext h1{
     padding: 20px 0;
@@ -191,6 +195,7 @@ body{
     align-items: center;
     padding: 20px;
     width: 100%;
+    margin: 0 auto;
 }
 #contentDtext{
     width: 55%;
@@ -205,36 +210,52 @@ body{
     margin-right: 40px;
 }
 #contentDimage{
-    width: 45%;
+    width: 35%;
 }
 .contentE{
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 60%;
+    width: 50%;
     margin-top: 50px;
 }
 details{
     border: 1px solid #222;
     border-radius: 4px;
-    padding: .2em 1em;
+    padding: .4em 1em;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 14px;
     background-color: #222;
     font-size: 26px;
 }
 summary{
-    margin: -.5em -.5em 0;
-    padding: .5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
     font-size: 26px;
 }
 details[open] {
-    padding: 2em;
+    padding: 1em;
 }
 details > summary{
-    
+    margin: 0;
     list-style: none;
     cursor: pointer;
+}
+details > p{
+    margin: 0;
+    padding: 0;
+    padding-top: 16px;
+    border-top: 1px solid black;
+}
+details > h6{
+    margin: 0;
+    padding: 0;
+    padding-top: 8px;
+    font-size: 26px;
+    font-weight: 200;
 }
 #watch{
     font-size: 18px;
@@ -246,35 +267,9 @@ details > summary{
     text-align: center;
     font-size: 50px;
 }
-#more1{
-    margin-left: 530px;
-    font-size: 45px;
-    font-weight: 700;
-}
-#more2{
-    margin-left: 375px;
-    font-size: 45px;
-    font-weight: 700;
-}
-#more3{
-    margin-left: 484px;
-    font-size: 45px;
-    font-weight: 700;
-}
-#more4{
-    margin-left: 513px;
-    font-size: 45px;
-    font-weight: 700;
-}
-#more5{
-    margin-left: 380px;
-    font-size: 45px;
-    font-weight: 700;
-}
-#more6{
-    margin-left: 430px;
-    font-size: 45px;
-    font-weight: 700;
+#more1, #more2, #more3, #more4, #more5, #more6{
+    font-size: 35px;
+    font-weight: 100;
 }
 #call_to_action2{
     display: flex;
@@ -302,7 +297,8 @@ details > summary{
 footer{
     display: flex;
     flex-direction: row;
-    padding: 30px 150px;
+    justify-content: center;
+    padding: 70px 0;
     gap: 90px;
     line-height: 38px;
     font-size: 13px;
